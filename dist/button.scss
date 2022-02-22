@@ -1,0 +1,79 @@
+@import "./variables.scss";
+
+//button variables layout
+
+$display: flex;
+$flex-direction: row;
+$justify-content: center;
+$align-items: center;
+$text-align: center;
+
+//Buttton sizing
+$width-regular: 104px;
+$height-regular: 42px;
+
+$width-small: 72px;
+$height-small: 28px;
+
+$width-large: 92px;
+$height-large: 50px;
+
+//line height
+$line-height-normal: 19px;
+
+//Border radius for button
+$border-radius-primary: 6px;
+$border-radius-secondary: 4px;
+
+//Border type for button
+$border: 1px solid $blue-3;
+$border-secondary-regular: 1px solid $blue-4;
+$border-secondary-hover: 1px solid $blue-3;
+$border-secondary-pressed: 1px solid $blue-4;
+
+//border is same for primary and secondary disabled button
+$border-disabled: 1px solid $grey-5;
+
+//border shadow
+$box-shadow-primary: inset 0px -2px 0px rgba(0, 0, 0, 0.15);
+
+//box-sizing
+
+$box-sizing: border-box;
+
+//default styles
+$font-size: $font-size;
+$font-weight-normal: $font-weight-normal;
+$font-style-normal: $font-style-normal;
+
+//padding small regular large
+
+$small-padding: 4px 10px 5px;
+$regular-padding: 11px 26px;
+$large-padding: 22px 20px;
+
+//background colours
+
+$primary-regular-background-color: $blue-4;
+$primary-hover-background-color: $blue-3;
+$primary-pressed-background-color: $blue-5;
+
+$secondary-background-color: $grey-1;
+$secondary-hover-background-color: $blue-0;
+$secondary-pressed-background-color: $blue-1;
+
+$primary-disabled-background-color: $grey-3;
+$secondary-disabled-background-color: $grey-1;
+
+//text colours
+//primary button text colors
+
+$primary-text-color: $grey-1;
+$primary-disabled-text-color: $grey-5;
+
+//secondary button text colors
+
+$secondary-regular-text-color: $blue-4;
+$secondary-hover-text-color: $blue-3;
+$secondary-pressed-text-color: $blue-5;
+$secondary-disabled-text-color: $grey-5;

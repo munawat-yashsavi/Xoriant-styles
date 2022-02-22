@@ -1,0 +1,13 @@
+{
+  "name": "@atg/xor-style",
+  "version": "1.0.0",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "@atg:registry": "http://gitlabsrv.xoriant.com/api/v4/projects/46/packages/npm/"
+  }
+}
