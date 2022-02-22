@@ -1,5 +1,5 @@
 {
-  "name": "@atg/xor-style",
+  "name": "@ui-toolkit/xor-style",
   "version": "1.0.0",
   "main": "dist",
   "scripts": {
@@ -8,6 +8,6 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "@atg:registry": "http://gitlabsrv.xoriant.com/api/v4/projects/46/packages/npm/"
+    "@ui-toolkit:registry": "https://atggitlab-srv.xoriant.com/api/v4/projects/8/packages/npm/"
   }
 }
